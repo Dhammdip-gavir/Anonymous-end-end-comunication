@@ -1,4 +1,4 @@
-# X:/Anonymous
+## Anonymous end-to-end communication
 
 ## Cryptographic algorithms and functions used in this project haven't been fully reviewed, so don't use this for any seriously sensitive data. 
 
@@ -49,6 +49,11 @@ Pretty much every social media platform has a chat feature, but they all store y
 **Public Key:** Used to encrypt text so that only the person with the correct private key can decrypt it. You don't need to keep this safe, it's already shared with anyone who connects to you.
 
 **Anonymous ID:** Used to differentiate users without having to identify them. Randomly generated. Keep this safe, others may be able to "impersonate" you with it. This isn't shared with the other chat participant.
+
+## Languages
+**Java JSON**: In Java, JSON (JavaScript Object Notation) is often handled using libraries such as Jackson or Gson. These libraries allow you to parse JSON data into Java objects or serialize Java objects into JSON format. JSON is a lightweight data interchange format that's easy for humans to read and write and easy for machines to parse and generate. 
+
+**server.js**: In a Node.js environment, `server.js` is typically the main entry point for your server-side application. It contains the code to set up and configure the server, handle incoming requests, and define routes and middleware. For example, it might use Express.js to manage HTTP requests and responses, route traffic, and serve files or data.
 
 **Conversation ID:** Used to identify different conversations. Randomly generated.
 
