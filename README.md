@@ -19,9 +19,6 @@
 3. Click on "Show" on the top left, and select "In a New Window."
 
 #### Side Notes:
-
-* If it doesn't work, once the project has loaded, look for the "package.json" file on the left side of the screen, and click on it. Then click on the "Add Package" button, and click on any packages that show up to download them. If it still doesn't work, then contact me through one of my social media profiles listed at the bottom of my [website](https://www.xtrendence.com).
-
 * Keep in mind that Glitch automatically shuts down your server after 30 minutes of inactivity.
 
 * Messages are encrypted using RSA-2048/3072/4096 (depending on which one you choose), so they will have a character limit. The bigger the key size, the stronger the encryption (but the chat app will be slower). In the future, I might just encrypt each message using AES and a random key, and then encrypt the AES key with RSA to bypass any limits, just like how images are encrypted.
@@ -57,4 +54,4 @@ Pretty much every social media platform has a chat feature, but they all store y
 
 **Conversation ID:** Used to identify different conversations. Randomly generated.
 
-![X-Anonymous](https://i.imgur.com/uTdp1pb.jpg)
+
